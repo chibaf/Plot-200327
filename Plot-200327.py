@@ -9,7 +9,7 @@ import numpy as np
 def S(FAI, b):  # function definition
 	C=1
 	Nu=1
-	r=C*(1-FAI)/(FAI**3-b)
+	r=C*(1-FAI)/(FAI**3+b)
 	return r
 	
 # b=0.1, 1, 10, 100
