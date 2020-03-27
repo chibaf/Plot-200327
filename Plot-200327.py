@@ -39,11 +39,11 @@ y4 = S(phi,b)
 fig, ax = plt.subplots()
 
 c1,c2,c3,c4 = "blue","green","red","black"      # 各プロットの色
-l1,l2,l3,l4 = "1","2","3","4"   # 各ラベル
+l1,l2,l3,l4 = "b=0.1","b=1","b=10","b=100"   # 各ラベル
 
 ax.set_xlabel('phi')  # x軸ラベル
 ax.set_ylabel('S')  # y軸ラベル
-ax.set_title(r'Title') # グラフタイトル
+ax.set_title(r'HNGN74') # グラフタイトル
 # ax.set_aspect('equal') # スケールを揃える
 #ax.grid()            # 罫線
 #ax.set_xlim([-10, 10]) # x方向の描画範囲を指定
